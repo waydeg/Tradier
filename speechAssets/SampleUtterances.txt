@@ -1,0 +1,78 @@
+MarketStatus if the market is open
+MarketStatus is the market open now
+MarketStatus if the market is open now
+MarketStatus is the market open
+
+ExecuteTrade execute trade
+ExecuteTrade execute my trade
+CancelTrade cancel my trade
+CancelTrade cancel my trade
+
+LookupCompany describe {Company}
+LookupCompany get the symbol for company {Company}
+LookupCompany get the symbol for {Company}
+LookupCompany get the stock symbol for {Company}
+LookupCompany get the symbol for the company {Company}
+LookupCompany get the symbol for the company called {Company}
+LookupCompany get the stock symbol for the company {Company}
+LookupCompany get the stock symbol for the company called {Company}
+LookupCompany get the description for the company {Company}
+LookupCompany get the description for the company called {Company}
+
+GetCompanyQuote lookup company {Company}
+GetCompanyQuote lookup the company {Company}
+GetCompanyQuote lookup the company called {Company}
+GetCompanyQuote lookup {Company}
+GetCompanyQuote get the selling price for {Company}
+GetCompanyQuote get the stock price for {Company}
+GetCompanyQuote is the price of {Company}
+GetCompanyQuote what is the price of {Company}
+GetCompanyQuote get the price of company {Company}
+GetCompanyQuote is {Company} up or down
+GetCompanyQuote is {Company} up or down right now
+GetCompanyQuote how is {Company} doing
+GetCompanyQuote how is {Company} doing today
+GetCompanyQuote how is {Company} doing right now
+GetCompanyQuote how {Company} is doing
+GetCompanyQuote how {Company} is doing today
+GetCompanyQuote how {Company} is doing right now
+
+GetMyStocks how are my stocks doing right now
+GetMyStocks how my stocks are doing right now
+GetMyStocks how are my stocks doing
+GetMyStocks how my stocks are doing
+GetMyStocks what stocks are on my watchlist
+GetMyStocks get my watchlist
+
+AddToWatchlist add to my watchlist {Symbol} 
+AddToWatchlist put on my watchlist {Symbol} 
+
+RemoveFromWatchlist remove from my watchlist {Symbol} 
+RemoveFromWatchlist delete from my watchlist {Symbol} 
+
+CreateWatchlist create a watchlist
+
+DeleteWatchlist to delete my watchlist
+
+GetQuote get the quote for {Symbol}
+GetQuote get the quote for stock {Symbol}
+GetQuote get the quote for symbol {Symbol}
+
+BuyStock buy {Quantity} shares of {Symbol}
+BuyStock purchase {Quantity} shares of {Symbol}
+
+SellStock sell {Quantity} shares of {Symbol}
+SellStock sell {Quantity} shares of {Symbol}
+
+HearMore yes please
+HearMore affirmative
+
+DontHearMore no
+DontHearMore nope
+DontHearMore no thank you
+DontHearMore not now
+DontHearMore negative
+HearMore yes
+HearMore yep
+HearMore yeah
+HearMore sure

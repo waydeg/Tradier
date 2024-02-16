@@ -1,0 +1,108 @@
+{
+  "intents": [
+    {
+      "intent": "MarketStatus"
+    },
+    {
+      "intent": "CreateWatchlist"
+    },    
+    {
+      "intent": "DeleteWatchlist"
+    },   
+    {
+      "intent": "ExecuteTrade"
+    },  
+    {
+      "intent": "CancelTrade"
+    },      
+    {
+      "intent": "LookupCompany",
+      "slots": [
+        {
+          "name": "Company",
+          "type": "COMPANIES"
+        }
+      ]
+    },
+    {
+      "intent": "GetCompanyQuote",
+      "slots": [
+        {
+          "name": "Company",
+          "type": "COMPANIES"
+        }
+      ]
+    },    
+    {
+      "intent": "GetQuote",
+      "slots": [
+        {
+          "name": "Symbol",
+          "type": "SYMBOLS"
+        }
+      ]
+    },    
+    {
+      "intent": "BuyStock",
+      "slots": [
+        {
+          "name": "Quantity",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "Symbol",
+          "type": "SYMBOLS"
+        }
+      ]
+    },        
+    {
+      "intent": "SellStock",
+      "slots": [
+        {
+          "name": "Quantity",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "Symbol",
+          "type": "SYMBOLS"
+        }
+      ]
+    },     
+    {
+      "intent": "AddToWatchlist",
+      "slots": [
+        {
+          "name": "Symbol",
+          "type": "SYMBOLS"
+        }
+      ]
+    },      
+    {
+      "intent": "RemoveFromWatchlist",
+      "slots": [
+        {
+          "name": "Symbol",
+          "type": "SYMBOLS"
+        }
+      ]
+    },          
+     {
+      "intent": "GetMyStocks"
+    },   
+    {
+      "intent": "HearMore"
+    },
+    {
+      "intent": "DontHearMore"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}
